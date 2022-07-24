@@ -2,7 +2,7 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "remix build"
+    "build": "remix build && echo \"export const config = {runtime: 'experimental-edge'};\" >> api/edge.js"
   },
   "dependencies": {
     "@remix-run/cloudflare": "^1.6.5",

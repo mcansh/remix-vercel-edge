@@ -7,3 +7,5 @@ node_modules
 /.mf
 .env
 .vercel
+api/edge.js
+api/edge.js.map
